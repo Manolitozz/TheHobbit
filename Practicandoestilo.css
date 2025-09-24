@@ -1,0 +1,59 @@
+body{
+     background-image:url(img/fondo.jpg);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#cabecera {
+    display: flex;
+    justify-content: space-between; /* separa logo a la izquierda y lupa a la derecha */
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#lupa img {
+    width: 40px; /* un tamaño fijo en px, no porcentaje */
+    height: auto;
+    border-radius: 50%;
+}
+
+#titulo{
+    color: yellow;
+    font-family: 'booka one', sans-serif;
+    text-align: center;
+}
+
+#relleno{
+    display: flex;
+    justify-content: space-between; /* reparte en línea */
+    align-items: flex-start;
+    margin: 20px;
+    gap: 20px;
+}
+
+.Pelicula img {
+    margin: auto;
+    padding:20px;
+    width: 90%;
+}
+
+.Pelicula h3{
+    text-align: center;
+    padding:10px;
+    color:#F2E527
+}
+.Pelicula p{
+    text-align: justify;
+    padding:5px;
+    margin: 5px;
+    color: rgb(219, 206, 16);
+}
+
+#pie{
+    text-align: center;
+    color: yellow;
+    font-family: 'booka one', sans-serif;
+}
